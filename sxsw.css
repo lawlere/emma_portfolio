@@ -1,0 +1,595 @@
+body { 
+	width: 26000px; 
+	margin: 0;
+	padding: 0;
+} 
+
+.panel { 
+	width: 930px; float: left; padding-left: 30px; padding-right: 1040px;
+} 
+
+.panel { 
+	margin-top: 0;
+} 
+
+ul#banner { 
+	position: fixed; 
+	line-height: 45px; 
+	margin: 0; 
+	padding-right: 0; 
+	margin-left: -30px;
+} 
+
+ul#banner li { 
+	display: inline; 
+	padding-left: 57px;
+	height: 30px;
+	background-color: white;
+} 
+
+ul#banner li a {
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;	
+	color: #ff9900;
+	font-size: 140%;
+}
+
+header #banner {
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	/*margin-left: -40px;
+	margin-top: -10px;*/
+}
+
+/*---Landing---*/
+#landing {
+	background-image:url('images/alleyway_2.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	margin-left: -10px;
+	padding-top: 30px;
+}
+
+#landing h1 {
+	margin-top: 140px;
+	font-family: 'Maiden Orange', cursive;	
+	color: #ff9900;
+	font-size: 180px;
+	text-align:center;
+	opacity: 0.8;
+	margin-left: -60px;
+	text-transform: uppercase;
+}
+
+#landing h2 {
+	font-family: 'Maiden Orange', cursive;	
+	color: white;
+	font-size: 200%;
+	text-align:center;
+	opacity: 1;
+	margin-left: -60px;
+	margin-top: -110px;
+	letter-spacing:2px;
+	font-weight: 100;
+}
+
+#landing .side_text {
+	font-family: 'Maiden Orange', cursive;
+	font-weight: 100;
+	color: #404041;
+	position: absolute;
+	margin-left: 930px;
+	width: 350px;
+	margin-top: -720px;
+	font-size: 200%;
+	letter-spacing: 2px;
+	height: 1000px;
+	border-left: 1px solid #ff9900;
+	padding-left: 10px;
+}
+
+#landing a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 40px;
+	padding-top: 430px;
+	padding-bottom: 535px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#landing a img {
+	width: 30px;
+}
+
+#landing a:hover {
+	opacity: 1;
+}
+
+/*---1---*/
+#page_1 {
+	background-image:url('images/lights.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_1 h3 {
+	font-family: 'Maiden Orange', cursive;
+	font-weight: 100;
+	color: #404041;
+	position: absolute;
+	margin-left: 930px;
+	width: 350px;
+	margin-top: 30px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_1 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1180px;
+	padding-bottom: 480px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_1 a img {
+	width: 30px;
+}
+
+#page_1 a:hover {
+	opacity: 1;
+}
+
+/*---2---*/
+
+#page_2 {
+	background-image:url('images/balloon.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_2 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_2 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1000px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_2 a img {
+	width: 30px;
+}
+
+#page_2 a:hover {
+	opacity: 1;
+}
+
+/*---3---*/
+
+#page_3 {
+	background-image:url('images/alleyway.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_3 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_3 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1000px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_3 a img {
+	width: 30px;
+}
+
+#page_3 a:hover {
+	opacity: 1;
+}
+
+/*---4---*/
+
+#page_4 {
+	background-image:url('images/charging.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_4 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_4 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1000px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_4 a img {
+	width: 30px;
+}
+
+#page_4 a:hover {
+	opacity: 1;
+}
+
+/*---5---*/
+
+#page_5 {
+	background-image:url('images/girls_on_street.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_5 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_5 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1000px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_5 a img {
+	width: 30px;
+}
+
+#page_5 a:hover {
+	opacity: 1;
+}
+
+/*---6---*/
+
+#page_6 {
+	background-image:url('images/Joe_eating.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_6 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_6 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -960px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_6 a img {
+	width: 30px;
+}
+
+#page_6 a:hover {
+	opacity: 1;
+}
+
+/*---7---*/
+
+#page_7 {
+	background-image:url('images/crazy_hair.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_7 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_7 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1000px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_7 a img {
+	width: 30px;
+}
+
+#page_7 a:hover {
+	opacity: 1;
+}
+
+/*---8---*/
+
+#page_8 {
+	background-image:url('images/man_grafiti.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_8 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_8 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1000px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_8 a img {
+	width: 30px;
+}
+
+#page_8 a:hover {
+	opacity: 1;
+}
+
+/*---9---*/
+
+#page_9 {
+	background-image:url('images/poet_on_street.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_9 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_9 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1000px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_9 a img {
+	width: 30px;
+}
+
+#page_9 a:hover {
+	opacity: 1;
+}
+
+/*---10---*/
+
+#page_10 {
+	background-image:url('images/model.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_10 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_10 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1000px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_10 a img {
+	width: 30px;
+}
+
+#page_10 a:hover {
+	opacity: 1;
+}
+
+/*--11---*/
+
+#page_11 {
+	background-image:url('images/window.png');
+	width: 930px;
+	height: 1000px;
+	background-repeat:no-repeat;
+	padding-top: 30px;
+}
+
+#page_11 h3 {
+	font-family: 'Maiden Orange', cursive;
+	color: #404041;
+	margin-left: 930px;
+	width: 350px;
+	font-size:200%;
+	line-height: 50px;
+}
+
+#page_11 a {
+	margin-left: 1330px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Maiden Orange', cursive;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 1100px;
+	padding-bottom: 520px;
+	background-color: #A62f00;
+	position: absolute;
+	margin-top: -800px;
+	opacity: 0.2;
+	font-size: 140%;
+}
+
+#page_11 a img {
+	width: 30px;
+}
+
+#page_11 a:hover {
+	opacity: 1;
+}
+
+
+
+
+
