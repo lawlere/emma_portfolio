@@ -4,16 +4,17 @@ body {
 }
 
 .container {
-	width:1400px;
-	margin: 0 auto;
-	height:970px;
+	width:100%;
+	height:1240px;
+	margin-left:6%;
+	max-width:1200px;
 }
 
 #header_box {
 	background-color:#e0f3ec;
 	width:100%;
-	height:140px;
-	opacity:.7;
+	height:100px;
+	opacity:1;
 	margin-top:60px;
 	border-top-style:solid;
 	border-top-color:#6bc6aa;
@@ -32,50 +33,64 @@ body {
 
 #header a {
 	text-indent:-9999px;
-	background-image:url('images/logo_03.png');
+	background-image:url('images/logo_new_03.png');
 	background-repeat:no-repeat;
 	height:120px;
-	margin-top:7px;
+	margin-top:42px;
 	display:block;
 }
 
 #contact {
 	position:absolute;
-	margin-left:1104px;
-	margin-top:-98px;
+	margin-left:875px;
+	margin-top:-75px;
+	max-width:1190px;
 }
 
 #contact a {
-	margin-right:8px;
+	margin-right:12px;
+}
+
+#contact img {
+	width:40px;
+	height:40px;
+}
+
+#boxes {
+	display:block;
 }
 
 #project_1 {
-	margin-top:60px;
+	padding-top:60px;
 }
 
 #project_2 {
-	margin-top:60px;
+	padding-top:60px;
 }
 
 #project_3 {
-	margin-top:60px;
+	padding-top:60px;
 }
 
 #project_4 {
-	margin-top:460px;
+	padding-top:400px;
 }
 
 #project_5 {
-	margin-top:60px;
+	padding-top:400px;
 }
 
 #project_6 {
-	margin-top:60px;
+	padding-top:400px;
+}
+
+#project_7 {
+	padding-top:400px;
 }
 
 #boxes div {
-	display:inline-block;
-	margin-right:460px;
+	float:left;
+	margin-right:400px;
 }
 
 #boxes #project_1 a {
@@ -102,23 +117,28 @@ body {
     background-image:url('images/dollar_tree.png');
 }
 
+#boxes #project_7 a {
+    background-image:url('images/livestrong_square');
+}
+
 #boxes a {
 	background:white;
-	padding:200px;
+	padding:170px;
 	position:absolute;
 	margin-top:0px;
 	-moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     -khtml-border-radius: 8px;
     border-radius: 8px;
-    border:7px solid white;
+    border:1px solid #B2B2B2;
+    box-shadow: .2px .2px 6px #B2B2B2;
 }
 
 #boxes a:before {
 	font-family:'Roboto', sans-serif;
 	font-weight:100; 
 	text-decoration:none;
-	color:#6bc6aa
+	color:#6bc6aa;
 	font-size:36px;
 	margin-left:60px;
 	margin-top: 300px;
@@ -128,9 +148,9 @@ body {
 	height: 200px;
 	opacity:1;
 	-webkit-transition: opacity .3s ease-in-out;
- 	   -moz-transition: opacity .3s ease-in-out;
-			transition: opacity .3s ease-in-out;
-	}
+ 	-moz-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
 
 #boxes a:hover:before {
 	opacity: 1;
@@ -146,10 +166,11 @@ body {
 	content: 'View Project';
 	color: #fff;
 	background: rgba(0,0,0,0.7);
-	padding: 179px 104px;
+	padding: 156px 104px;
+	padding-right:110px;
 	font-family: 'Roboto', sans-serif;
 	font-weight:100;
-	font-size:36px;
+	font-size:24px;
 	-moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     -khtml-border-radius: 8px;
@@ -182,13 +203,13 @@ body {
 }
 
 .footer_container {
-	width:1400px;
+	width:1200px;
 	margin: 0 auto;
 }
 
 #contact_footer {
 	position:absolute;
-	margin-left:1104px;
+	margin-left:848px;
 	margin-top:0px;
 }
 
@@ -198,6 +219,7 @@ body {
 
 #contact_footer img {
 	width:40px;
+	height:40px;
 	margin-top:-40px;
 	margin-left:12px;
 }
@@ -207,48 +229,52 @@ body {
 }
 
 .info_container {
-	width:1300px;
+	width:1200px;
 	margin: 0 auto;
 	height:1000px
 	position:absolute;
-	margin-top:-910px;
+	margin-top:-1180px;
 	background-color:white;
 	padding-top:60px;
 	-moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     -khtml-border-radius: 8px;
     margin-bottom:60px;
+    border:1px solid #B2B2B2;
+    box-shadow: .2px .2px 6px #B2B2B2;
 }
 
 #info h1 {
 	font-family: 'Roboto', sans-serif;
 	font-weight:400;
 	margin-top:-10px;
-	margin-bottom:35px;
+	font-size:140%;
 }
 
 #info img {
-	margin-top:20px;
+	margin-top:40px;
 	margin-bottom:60px;
-	width:1180px;
+	width:1080px;
 	border-top:1px solid #dddddd;
-	padding-top:60px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+    border:1px solid #B2B2B2;
 }
 
 #info p {
 	font-family: 'Roboto', sans-serif;
 	font-weight:100;
-	width:1200px;
-	font-size:24px;
+	width:1080px;
+	font-size:100%;
 	line-height:1.5;
-	margin-bottom:35px;
 }
 
 #info h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight:200;
-	font-size:24px;
-	margin-bottom:35px;
+	font-size:100%;
 	color:#6bc6aa;
 }
 
@@ -257,6 +283,370 @@ body {
 	color:#6bc6aa;
 	font-weight:400;
 }
+
+@media screen and (max-width: 1200px) {
+
+	.container {
+		width:100%;
+		margin-left:15%;
+		height:1680px;
+	}
+
+	#header {
+		height:175px;
+		margin-top:-143px;
+		position:absolute;
+	}
+
+	#contact {
+		position:relative;
+		margin-left:478px;
+		margin-top:-75px;
+	}
+
+	#header a {
+		text-indent:-9999px;
+		background-image:url('images/top_logo_small_03.png');
+		background-repeat:no-repeat;
+		height:120px;
+		margin-top:115px;
+	}
+
+	.info_container {
+		width:90%;
+		margin: 0 auto;
+		margin-top:-1550px;
+	}
+
+	#info img {
+		width:94%;
+	}
+
+	#info p {
+		width:94%;
+	}
+
+	#project_1 {
+		padding-top:60px;
+	}
+
+	#project_2 {
+		padding-top:-20px;
+	}
+
+	#project_3 {
+		margin-top:340px;
+	}
+
+	#project_4 {
+		padding-top:-100px;
+	}
+
+	#project_5 {
+		padding-top:400px;
+	}
+
+	#project_6 {
+		padding-top:400px;
+	}
+
+	#contact_footer {
+		margin-left:445px;
+	}
+
+	#footer img {
+		margin-left:170px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+/* Styles for all iphones, portrait and landscape */
+	.container {
+		width:100%;
+		margin-left:25%;
+		height:2515px;
+	}
+
+	#contact {
+		position:relative;
+		margin-left:40px;
+		margin-top:-75px;
+	}
+
+	.info_container {
+		width:90%;
+		margin: 0 auto;
+		margin-top:-1150px;
+	}
+
+	#info img {
+		width:94%;
+	}
+
+	#info p {
+		width:94%;
+	}
+
+	#header_box {
+		height:160px;
+	}
+
+	#header a {
+		margin-top:55px;
+	}
+
+	#project_1 {
+		margin-top:30px;
+	}
+
+	#project_2 {
+		margin-top:400px;
+	}
+
+	#contact_footer {
+		margin-left:700px;
+	}
+
+	#footer img {
+		margin-left:170px;
+	}
+}
+
+@media screen and (max-width: 785px) {
+	
+	.container {
+		width:100%;
+		margin-left:28%;
+		height:2970px;
+	}
+
+	#header_box {
+		height:160px;
+	}
+
+	#header {
+		height:175px;
+		margin-top:-143px;
+		position:absolute;
+	}
+
+	#contact {
+		position:relative;
+		margin-left:45px;
+		margin-top:-70px;
+	}
+
+	#header a {
+		margin-top:55px;
+	}
+
+	#project_1 {
+		margin-top:30px;
+	}
+
+	#project_2 {
+		margin-top:400px;
+	}
+
+	#footer img {
+		margin-left:28%;
+	}
+
+	#contact_footer {
+		margin-left:1000px;
+	}
+
+	.info_container {
+		width:90%;
+		margin: 0 auto;
+		margin-top:-2000px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.info_container {
+		width:90%;
+		margin: 0 auto;
+		margin-top:-2380px;
+	}
+
+	#info img {
+		width:94%;
+	}
+
+	#info p {
+		width:94%;
+	}
+
+	#project_1 {
+		margin-top:30px;
+	}
+
+	#project_2 {
+		margin-top:400px;
+	}
+
+	.info_container {
+		width:90%;
+		margin: 0 auto;
+		margin-top:-2840px;
+	}
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width: 320px) {
+/* Styles for all iphones, portrait and landscape */
+	.container {
+		width:100%;
+		margin-left:1%;
+		height:2300px;
+	}
+
+	#header_box {
+		height:160px;
+		margin-top:0px;
+	}
+
+	#header {
+		height:175px;
+		margin-top:-143px;
+		position:absolute;
+	}
+
+	#contact {
+		position:relative;
+		margin-left:35px;
+		margin-top:-70px;
+	}
+
+	#header a {
+		margin-top:55px;
+		background-image:url('images/logo_small.png');
+		margin-left:6%;
+	}
+
+	.info_container {
+		width:90%;
+		margin-top:-2200px;
+	}
+
+	#info img {
+		width:94%;
+		margin-left:-8%;
+	}
+
+	#info p {
+		width:94%;
+		margin-left:-8%;
+	}
+
+	#info h2 {
+		width:94%;
+		margin-left:-8%;
+	}
+
+	#info h1 {
+		width:94%;
+		margin-left:-8%;
+	}
+
+	#project_1 {
+		margin-top:0px;
+	}
+
+	#project_2 {
+		margin-top:240px;
+	}
+
+	#project_3 {
+		margin-top:240px;
+	}
+
+	#project_4 {
+		margin-top:-100px;
+	}
+
+	#project_5 {
+		margin-top:-100px;
+	}
+
+	#project_6 {
+		margin-top:-100px;
+	}
+
+	#boxes #project_1 a {
+    	background-image:url('images/kubmo_site_mobile.png');
+	}
+
+	#boxes #project_2 a {
+	    background-image:url('images/timeline_mobile.png');
+	}
+
+	#boxes #project_3 a {
+	    background-image:url('images/sxsw_mobile.png');
+	}
+
+	#boxes #project_4 a {
+	    background-image:url('images/UDR_landing_mobile.png');
+	}
+
+	#boxes #project_5 a {
+	    background-image:url('images/made_banner_mobile.png');
+	}
+
+	#boxes #project_6 a {
+	    background-image:url('images/dollar_mobile.png');
+	}
+
+	#boxes #project_7 a {
+	    background-image:url('images/livestrong_square_small.png');
+	}
+
+	#footer img {
+		margin-left:6%;
+	}
+
+	#boxes div {
+		float:left;
+		margin-right:280px;
+		margin-left:10%;
+	}
+
+	#boxes a {
+		background:white;
+		padding:125px;
+		position:absolute;
+	}
+
+	#boxes a:before {
+		font-size:20px;
+		margin-left:60px;
+		margin-top: 300px;
+		width: 194px;
+		height: 200px;
+	}
+
+	#boxes a:hover:before {
+		opacity: 1;
+	}
+
+	#boxes a:after {
+		content: 'View Project';
+		padding: 100px 80px;
+		padding-right:80px;
+		font-size:18px;
+	}
+
+}
+
+
+
+
+
+        
+
+
+
 
 
 
