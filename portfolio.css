@@ -5,7 +5,7 @@ body {
 
 .container {
 	width:100%;
-	height:1240px;
+	height:1640px;
 	margin-left:6%;
 	max-width:1200px;
 }
@@ -21,7 +21,7 @@ body {
 	border-top-width:7px;
 	border-bottom-style:solid;
 	border-bottom-color:#6bc6aa;
-	border-bottom-width:7px;
+	border-bottom-width:36px;
 }
 
 #header {
@@ -36,14 +36,14 @@ body {
 	background-image:url('images/logo_new_03.png');
 	background-repeat:no-repeat;
 	height:120px;
-	margin-top:42px;
+	margin-top:13px;
 	display:block;
 }
 
 #contact {
 	position:absolute;
 	margin-left:875px;
-	margin-top:-75px;
+	margin-top:-108px;
 	max-width:1190px;
 }
 
@@ -54,6 +54,23 @@ body {
 #contact img {
 	width:40px;
 	height:40px;
+}
+
+#hero {
+	background-image:url('images/emma_workshop.png');
+	text-indent:-9999px;
+}
+
+#text_hero h1 {
+	font-family:'Roboto', sans-serif;
+	font-weight:200;
+	color:#333;
+	position:absolute;
+	margin-top:-30px;
+	font-size:19.4px;
+	color:white;
+	margin-left:54px;
+	width:320px;
 }
 
 #boxes {
@@ -88,6 +105,18 @@ body {
 	padding-top:400px;
 }
 
+#project_8 {
+	padding-top:400px;
+}
+
+#project_9 {
+	padding-top:400px;
+}
+
+#project_10 {
+	padding-top:400px;
+}
+
 #boxes div {
 	float:left;
 	margin-right:400px;
@@ -102,23 +131,36 @@ body {
 }
 
 #boxes #project_3 a {
-    background-image:url('images/sxsw');
+    background-image:url('images/shh_square.png');
 }
 
 #boxes #project_4 a {
-    background-image:url('images/UDR_landing.png');
+	background-image:url('images/LUV_square.png');
 }
 
 #boxes #project_5 a {
-    background-image:url('images/made_banner.png');
+    background-image:url('images/UDR_landing.png');
 }
 
 #boxes #project_6 a {
-    background-image:url('images/dollar_tree.png');
+	background-image:url('images/apartment_prototype');
 }
 
 #boxes #project_7 a {
+    background-image:url('images/sxsw');
+}
+
+#boxes #project_8 a {
     background-image:url('images/livestrong_square');
+}
+
+#boxes #project_9 a {
+	
+    background-image:url('images/made_banner.png'); 
+}
+
+#boxes #project_10 a {
+    background-image:url('images/sir_richards_square.png');
 }
 
 #boxes a {
@@ -233,7 +275,7 @@ body {
 	margin: 0 auto;
 	height:1000px
 	position:absolute;
-	margin-top:-1180px;
+	margin-top:-1580px;
 	background-color:white;
 	padding-top:60px;
 	-moz-border-radius: 8px;
@@ -249,6 +291,18 @@ body {
 	font-weight:400;
 	margin-top:-10px;
 	font-size:140%;
+}
+
+#info iframe {
+	margin-top:40px;
+	margin-bottom:60px;
+	width:90%;
+	border-top:1px solid #dddddd;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px;
+    border:1px solid #B2B2B2;	
 }
 
 #info img {
@@ -289,7 +343,7 @@ body {
 	.container {
 		width:100%;
 		margin-left:15%;
-		height:1680px;
+		height:2150px;
 	}
 
 	#header {
@@ -301,7 +355,7 @@ body {
 	#contact {
 		position:relative;
 		margin-left:478px;
-		margin-top:-75px;
+		margin-top:-104px;
 	}
 
 	#header a {
@@ -312,10 +366,16 @@ body {
 		margin-top:115px;
 	}
 
+	#text_hero h1 {
+		margin-top:32px;
+		margin-left:45px;
+		font-size:18px;
+	}
+
 	.info_container {
 		width:90%;
 		margin: 0 auto;
-		margin-top:-1550px;
+		margin-top:-2000px;
 	}
 
 	#info img {
@@ -327,11 +387,11 @@ body {
 	}
 
 	#project_1 {
-		padding-top:60px;
+		padding-top:120px;
 	}
 
 	#project_2 {
-		padding-top:-20px;
+		padding-top:120px;
 	}
 
 	#project_3 {
@@ -370,7 +430,13 @@ body {
 	#contact {
 		position:relative;
 		margin-left:40px;
-		margin-top:-75px;
+		margin-top:-100px;
+	}
+
+	#text_hero h1 {
+		margin-top:-3px;
+		margin-left:45px;
+		font-size:18px;
 	}
 
 	.info_container {
@@ -392,7 +458,7 @@ body {
 	}
 
 	#header a {
-		margin-top:55px;
+		margin-top:30px;
 	}
 
 	#project_1 {
@@ -417,7 +483,7 @@ body {
 	.container {
 		width:100%;
 		margin-left:28%;
-		height:2970px;
+		height:4160px;
 	}
 
 	#header_box {
@@ -433,19 +499,25 @@ body {
 	#contact {
 		position:relative;
 		margin-left:45px;
-		margin-top:-70px;
+		margin-top:-95px;
 	}
 
 	#header a {
 		margin-top:55px;
 	}
 
+	#text_hero h1 {
+		margin-top:22px;
+		margin-left:45px;
+		font-size:18px;
+	}
+
 	#project_1 {
-		margin-top:30px;
+		margin-top:0px;
 	}
 
 	#project_2 {
-		margin-top:400px;
+		margin-top:300px;
 	}
 
 	#footer img {
@@ -459,7 +531,7 @@ body {
 	.info_container {
 		width:90%;
 		margin: 0 auto;
-		margin-top:-2000px;
+		margin-top:-4000px;
 	}
 }
 
@@ -479,17 +551,17 @@ body {
 	}
 
 	#project_1 {
-		margin-top:30px;
+		margin-top:0px;
 	}
 
 	#project_2 {
-		margin-top:400px;
+		margin-top:280px;
 	}
 
 	.info_container {
 		width:90%;
 		margin: 0 auto;
-		margin-top:-2840px;
+		margin-top:-4000px;
 	}
 }
 
@@ -499,7 +571,7 @@ body {
 	.container {
 		width:100%;
 		margin-left:1%;
-		height:2300px;
+		height:2810px;
 	}
 
 	#header_box {
@@ -516,18 +588,22 @@ body {
 	#contact {
 		position:relative;
 		margin-left:35px;
-		margin-top:-70px;
+		margin-top:-100px;
 	}
 
 	#header a {
-		margin-top:55px;
+		margin-top:60px;
 		background-image:url('images/logo_small.png');
 		margin-left:6%;
 	}
 
+	#text_hero h1 {
+		margin-left:28px;
+	}
+
 	.info_container {
 		width:90%;
-		margin-top:-2200px;
+		margin-top:-2650px;
 	}
 
 	#info img {
@@ -551,11 +627,11 @@ body {
 	}
 
 	#project_1 {
-		margin-top:0px;
+		margin-top:-20px;
 	}
 
 	#project_2 {
-		margin-top:240px;
+		margin-top:180px;
 	}
 
 	#project_3 {
@@ -574,6 +650,18 @@ body {
 		margin-top:-100px;
 	}
 
+	#project_7 {
+		margin-top:-100px;
+	}
+
+	#project_8 {
+		margin-top:-100px;
+	}
+
+	#project_9 {
+		margin-top:-100px;
+	}
+
 	#boxes #project_1 a {
     	background-image:url('images/kubmo_site_mobile.png');
 	}
@@ -583,23 +671,35 @@ body {
 	}
 
 	#boxes #project_3 a {
-	    background-image:url('images/sxsw_mobile.png');
+	    background-image:url('images/shh_square_mobile.png');
 	}
 
 	#boxes #project_4 a {
-	    background-image:url('images/UDR_landing_mobile.png');
+	    background-image:url('images/LUV_square_small.png');
 	}
 
 	#boxes #project_5 a {
-	    background-image:url('images/made_banner_mobile.png');
+	    background-image:url('images/UDR_landing_mobile.png');
 	}
 
 	#boxes #project_6 a {
-	    background-image:url('images/dollar_mobile.png');
+		background-image:url('images/apartment_prototype_small.png');
 	}
 
 	#boxes #project_7 a {
+	    background-image:url('images/sxsw_mobile.png');
+	}
+
+	#boxes #project_8 a {
 	    background-image:url('images/livestrong_square_small.png');
+	}
+
+	#boxes #project_9 a {
+	    background-image:url('images/made_banner_mobile.png');
+	}
+
+	#boxes #project_10 a {
+	    background-image:url('images/sir_richards_square_small.png');
 	}
 
 	#footer img {
